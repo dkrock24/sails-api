@@ -10,5 +10,5 @@
 
 module.exports.routes = {
 
-
+    'GET /post/archive': 'PostController.archive',
 };

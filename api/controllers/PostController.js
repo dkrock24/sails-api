@@ -7,6 +7,8 @@
 
 module.exports = {
   
-
+    archive: function (req, res){
+        return res.ok( {msg :'Working Now'});
+    }
 };
 

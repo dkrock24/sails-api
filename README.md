@@ -6,7 +6,11 @@ sails --version
 sails new project_name --no-frontend
 sails new project_name
 sails generate api Post
+sails generate model Post title:string content:text
 sails lift
+
+#Mongo Install
+npm install --save sails-mongo
 
 
 a [Sails v1](https://sailsjs.com) application
